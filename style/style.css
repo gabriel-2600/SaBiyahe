@@ -46,7 +46,7 @@ nav {
 #home{
     background-image: url('desktop-pic.jpg');
     background-position: bottom;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .home-container{
@@ -55,12 +55,30 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.home-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
 .heading{
     background-color: #0d0d0dd0;
-    padding: 5rem;
+    padding: 1.5rem;
+    width: 40rem;
 }
 .heading h1{
+    font-size: 5rem;
     color: white;
     font-family: 'Noto Sans', sans-serif;
+}
+.table-of-contents{
+    background-color: #0d0d0dd0;
+    padding: 1rem;
+    width: 40rem;
+}
+.table-of-contents a{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
 }
 /* End of Home */
