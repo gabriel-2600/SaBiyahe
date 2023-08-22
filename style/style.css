@@ -7,6 +7,7 @@ html {
     font-size: 16px;
 }
 
+@media (min-width: 900px){
 /* Nav */
 nav {
     width: 100%;
@@ -50,7 +51,7 @@ nav {
     background-repeat: no-repeat;
 }
 .home-container{
-    height: 965px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,3 +109,12 @@ td a:hover{
     color: #797979;
 }
 /* End of Home */
+}
+
+
+
+/* Media Queries for Mobile */
+@media (min-width: px){
+    
+}
+/* End of Media Queries */
