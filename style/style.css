@@ -158,9 +158,7 @@ td a:hover{
     .table-of-contents{
         width: 15rem;
     }
-    .table-of-contents p{
-        font-size: 0.9rem;
-    }
+    .table-of-contents p,
     .table-of-contents a{
         font-size: 0.9rem;
     }
