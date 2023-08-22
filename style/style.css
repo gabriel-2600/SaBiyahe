@@ -5,7 +5,6 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
-    background-color: #f2f2f2;
 }
 
 /* Nav */
@@ -44,5 +43,23 @@ nav {
 /* End of Nav */
 
 /* Home */
-
+#home{
+    background-image: url('desktop-pic.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+.home-container{
+    height: 965px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    background-color: #0d0d0dd0;
+    padding: 5rem;
+}
+.heading h1{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
 /* End of Home */
