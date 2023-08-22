@@ -45,7 +45,8 @@ nav {
 /* Home */
 #home{
     background-image: url('desktop-pic.jpg');
-    background-size: cover; /* Adjust as needed */
+    background-position: bottom;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 .home-container{
