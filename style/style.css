@@ -118,7 +118,7 @@ td a:hover{
 .pre-heading-2 h2{
     font-family: 'Noto Sans', sans-serif;
     font-size: 2.5rem;
-    color: #0f1b27;
+    color: #723e31;
     text-align: center;
     padding: 5rem 0 1rem 0;
 }
@@ -179,13 +179,26 @@ td a:hover{
 }
 
 @media(max-width: 1030px) {
-    
+    .pre-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .pic-container {
+        width: 100%;
+    }
+    .pre-text-container {
+        width: 100%;
+        padding: 5rem;
+    }
+    #balsa-pic{
+        order: -1;
+    }
 }
 
 @media(max-width: 900px) {
     /* Nav 900px*/
     nav{
-        background-color: #fb8318;
+        background-color: #ff8921
     }
     #nav-a a:hover{
         color: #d30046;
@@ -198,17 +211,27 @@ td a:hover{
     }
     .heading{
         width: 40rem;
-        background-color: #fca63ed0;
+        background-color: #fca63ebe;
     }
     .heading h1{
         font-size: 3.5rem;
     }
     .table-of-contents{
         width: 30rem;
-        background-color: #fca63ed0;
+        background-color: #fca63ebe;
     }
     td a:hover{
         color: #d30046;
+    }
+
+    .pre-modern-container{
+        background-color: #f1d2b6;
+    }
+    .pre-heading-2 h2{
+        color: #723e31;
+    }
+    .pre-heading-3 h3{
+        color: #8d6f57;;
     }
     /* End of Home 900px */
 }
@@ -218,7 +241,7 @@ td a:hover{
         padding: 6rem;
     }
     .heading{
-        width: 20rem;
+        width: 17rem;
     }
     .heading h1{
         font-size: 2rem;
@@ -229,6 +252,20 @@ td a:hover{
     .table-of-contents p,
     .table-of-contents a{
         font-size: 0.9rem;
+    }
+
+    .pre-content-p{
+        width: 15rem;
+    }
+    .pre-heading-2 h2{
+        font-size: 1.9rem;
+    }
+    .pre-heading-3 h3{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .pre-content-p p{
+        font-size: 0.8rem;
     }
 }
 /* End of Media Queries */
