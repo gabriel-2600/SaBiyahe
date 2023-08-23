@@ -179,6 +179,18 @@ td a:hover{
 }
 /* End of Modern Era */
 
+/* Innovation */
+.inno-container{
+    background-color: #ffff;
+}
+#inno-heading-2 h2{
+    color: #0f1b27;
+}
+#inno-heading-3 h3{
+    color: #178bd5;
+}
+/* End of Innovation */
+
 /* Media Queries for Mobile */
 @media(max-width: 1275px) {
     .pre-heading-3 h3{
@@ -234,6 +246,7 @@ td a:hover{
     td a:hover{
         color: #d30046;
     }
+    /* End of Home 900px */
 
     .pre-modern-container{
         background-color: #f1d2b6;
@@ -251,9 +264,14 @@ td a:hover{
         color: #723e31;
     }
     .pre-heading-3 h3{
-        color: #8d6f57;;
+        color: #8d6f57;
     }
-    /* End of Home 900px */
+    #inno-heading-2 h2{
+        color: #d30046;
+    }
+    #inno-heading-3 h3{
+        color: #fc3d11;
+    }
 }
 
 @media(max-width: 670px) {
