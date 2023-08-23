@@ -165,8 +165,19 @@ td a:hover{
     font-size: 1rem;
     text-align: justify;
 }
-
 /* End of Pre-Moden-Era */
+
+/* Modern Era */
+.modern-container{
+    background-color: #d9d9d9;
+}
+#modern-heading-2 h2{
+    color: #0f1b27;
+}
+#modern-heading-3 h3{
+    color: #38597a;
+}
+/* End of Modern Era */
 
 /* Media Queries for Mobile */
 @media(max-width: 1275px) {
@@ -226,6 +237,15 @@ td a:hover{
 
     .pre-modern-container{
         background-color: #f1d2b6;
+    }
+    .modern-container{
+        background-color: #f2f2f2;
+    }
+    #modern-heading-2 h2{
+        color: #178bd5;
+    }
+    #modern-heading-3 h3{
+        color: #2bcaf8,;
     }
     .pre-heading-2 h2{
         color: #723e31;
