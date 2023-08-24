@@ -228,6 +228,34 @@ td a:hover{
 }
 /* End of About */
 
+/* Footer */
+.footer-container{
+    width: 100%;
+    background-color: #0f1b27;
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+}
+.contact h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    color: #f2f2f2;
+}
+.emails p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    color: #f2f2f2;
+}
+.footer-text h6{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8rem;
+    color: #f2f2f2;
+}
+/* End of Footer */
+
 /* Media Queries for Mobile */
 @media(max-width: 1275px) {
     .pre-heading-3 h3{
@@ -314,6 +342,16 @@ td a:hover{
     }
     #inno-heading-3 h3{
         color: #fc3d11;
+    }
+
+    .about-text-p{
+        width: 20rem;
+    }
+    .about-text-p p{
+        font-size: 0.9rem;
+    }
+    .references p{
+        font-size: 0.8rem;
     }
 }
 
