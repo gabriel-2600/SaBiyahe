@@ -11,7 +11,7 @@ html {
 nav {
     width: 100%;
     background-color: #0f1b27;
-    padding: 1.5rem 6rem 1.3rem 6rem;
+    padding: 1.5rem 6rem 1.5rem 6rem;
     position: fixed;
     display: flex;
     align-items: center;
@@ -270,6 +270,9 @@ td a:hover{
 }
 
 @media(max-width: 1030px) {
+    nav{
+        padding: 0.9rem 5rem 0.9rem 5rem;
+    }
     .pre-content-container {
         display: flex;
         flex-direction: column;
@@ -293,6 +296,9 @@ td a:hover{
     /* Nav 900px*/
     nav{
         background-color: #ff8921
+    }
+    .nav-buttons a{
+        transition: 0.6s;
     }
     .nav-buttons a:hover{
         color: #d30046;
