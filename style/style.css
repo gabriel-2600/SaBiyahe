@@ -43,6 +43,7 @@ nav {
 .nav-buttons a:hover{
     color: #797979;
 }
+
 /* End of Nav */
 
 /* Home */
@@ -295,14 +296,12 @@ td a:hover{
 @media(max-width: 900px) {
     /* Nav 900px*/
     nav{
-        background-color: #ff8921
-    }
-    .nav-buttons a{
-        transition: 0.6s;
+        background-color: #ff8921;
     }
     .nav-buttons a:hover{
         color: #d30046;
     }
+
     /* End of Nav 900px*/
 
     /* Home 900px */
@@ -362,9 +361,29 @@ td a:hover{
     .references p{
         font-size: 0.8rem;
     }
+
+    /* Footer 900px */
+    .footer-container{
+        background-color: #ff8921;
+    }
+    /* End of Footer 900px */
 }
 
 @media(max-width: 670px) {
+    nav{
+        padding: 0.9rem 2.5rem 0.9rem 2.5rem;
+    }
+    #team-name a{
+        font-size: 1rem;
+    }
+    .nav-buttons a{
+        font-size: 0.7rem;
+    }
+    .nav-buttons{
+        display: flex;
+        gap: 1.2rem;
+    }
+
     #home{
         padding: 6rem;
     }
