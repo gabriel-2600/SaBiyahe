@@ -27,17 +27,20 @@ nav {
 #team-name a{
     font-size: 1.3rem;
     font-weight: 700;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
 }
-#nav-a{
+.nav-buttons{
     display: flex;
     gap: 3.5rem;
 }
-#nav-a a{
+.nav-buttons a{
     font-size: 1rem;
     text-transform: uppercase;
     transition: 0.6s;
 }
-#nav-a a:hover{
+.nav-buttons a:hover{
     color: #797979;
 }
 /* End of Nav */
@@ -291,7 +294,7 @@ td a:hover{
     nav{
         background-color: #ff8921
     }
-    #nav-a a:hover{
+    .nav-buttons a:hover{
         color: #d30046;
     }
     /* End of Nav 900px*/
