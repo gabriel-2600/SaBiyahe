@@ -262,6 +262,9 @@ td a:hover{
 
 /* Media Queries for Mobile */
 @media(max-width: 1275px) {
+    nav{
+        padding: 0.9rem 5rem 0.9rem 5rem;
+    }
     .pre-heading-3 h3{
         font-size: 1.5rem;
     }
@@ -271,9 +274,6 @@ td a:hover{
 }
 
 @media(max-width: 1030px) {
-    nav{
-        padding: 0.9rem 5rem 0.9rem 5rem;
-    }
     .pre-content-container {
         display: flex;
         flex-direction: column;
@@ -301,7 +301,6 @@ td a:hover{
     .nav-buttons a:hover{
         color: #d30046;
     }
-
     /* End of Nav 900px*/
 
     /* Home 900px */
