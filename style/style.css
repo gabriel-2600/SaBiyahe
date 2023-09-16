@@ -209,7 +209,7 @@ td a:hover{
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    padding: 2.5rem 0;
+    padding: 4.5rem 0 2.5rem 0;
 }
 .about-heading-2 h2{
     font-family: 'Noto Sans', sans-serif;
@@ -219,20 +219,64 @@ td a:hover{
 }
 .about-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 3.5rem;
 }
-
+.about-text-container{
+    border: 2px #0f1b27 solid;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 70rem;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
 .about-text-container h3{
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size:1.7rem;
+    text-align: center;
 }
 .about-text-container p{
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
-    width: 25rem;
+    
+    color: #0f1b27;
+    text-align: center;
+}
+.members-content h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size:1.7rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.members-picture{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.member p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+}
+.pic{
+    float: left;
+    width:  16rem;
+    height: 16rem;
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.65);
 }
 /* End of About */
 
@@ -274,6 +318,21 @@ td a:hover{
     }
     .pre-content-p p{
         font-size: 0.8rem;
+    }
+
+    .about-text-container{
+        width: 40rem;
+    }
+    .members-picture{
+        display: flex;
+        flex-direction: column;
+    }
+    .member p{
+        font-size: 1.3rem;
+    }
+    .pic{
+        width: 21rem;
+        height: 21rem;
     }
 }
 
@@ -355,6 +414,11 @@ td a:hover{
         color: #fc3d11;
     }
 
+    /* About 900px*/
+    .about-text-container{
+        width: 18rem;
+    }
+    /* End of About 900px */
 
     /* Footer 900px */
     .footer-container{
